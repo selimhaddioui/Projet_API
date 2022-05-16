@@ -1,0 +1,116 @@
+body
+{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #E7E7E7;
+    padding: 40px;
+}
+
+header 
+{
+    height: 250px;
+    background-color: #C77171;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header > h2 
+{
+    margin: 0;
+    font-size: 86px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header > p 
+{
+    margin: 0;
+    font-size: 22px;
+    font-style: italic;
+}
+
+section
+{
+    display: flex;
+}
+
+section > div
+{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff9c;
+    border-radius: 75px;
+    flex: 1;
+    margin: 40px;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.rectangleBlanc
+{
+    background: white;
+    border-radius: 200px;
+    color: black;
+}
+
+section > div > div > h3
+{
+    flex: 1;
+    text-align: center;
+    font-weight: normal;
+}
+
+section > div > p
+{
+    font-style: italic;
+    color: #939292;
+    font-size: smaller;
+    text-align: center;
+}
+
+#entreeCalorie
+{
+    align-self: center;
+}
+
+#entreeCalorie > input
+{
+    border: none;
+    background-color: #DDDBDB;
+    border-radius: 100px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    align-self: center;
+    text-align: right;
+}
+
+#entreeCalorie > label
+{
+   font-size: 25px;
+}
+
+section > div > button
+{
+    background-color: #6169B1;
+    border-radius: 200px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+    width: 250px;
+    align-self: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+a
+{
+    text-decoration: none;
+}

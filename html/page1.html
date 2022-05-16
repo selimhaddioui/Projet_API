@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style_page1.css">
+    <title>Page 1</title>
+    <script src="javascript/dynamic_stuff.js" async></script>
+</head>
+<body>
+    <a href="accueil.html">
+        <header>
+            <h2>Calculorie</h2>
+            <p>OBJECTIF CALORIQUE</p>
+        </header>
+    </a>
+
+    <section>
+        <div>
+            <div class="rectangleBlanc">
+                <h3>Votre objectif est de <i id="objectifCalorique"></i> calories </h3>
+            </div>
+            <form action="">
+                
+                <select name="intolerance" id="intolerance" required>
+                    <option value="">Intolérance(s)</option>
+                </select>
+                
+                <select name="preference" id="preference" required>
+                    <option value="">Préférence(s)</option>
+                </select>
+                
+                <select name="nutriment" id="nutriment" required>
+                    <option value="">Nutriment(s)</option>
+                </select>
+
+            </form>
+            <button>Valider</button>
+        </div>
+    </section>
+</body>
+</html>

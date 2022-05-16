@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style_page2.css">
+    <title>Page 2</title>
+    <script src="javascript/dynamic_stuff.js" async></script>
+</head>
+<body>
+    <a href="accueil.html">
+        <header>
+            <h2>Calculorie</h2>
+            <p>OBJECTIF CALORIQUE</p>
+        </header>
+    </a>
+    <section>
+        <div>
+            <div>
+                <h3>
+                    Votre objectif est de <i id="objectifCalorique"></i> calories <br><br>
+                    Voici notre sélection d'aliments selon vos critères :
+                </h3>
+            </div>
+            <div class="rectangleBlanc">
+                <table id="resultatCalcul">
+
+                    <thead>
+                        <th>Aliments</th>
+                        <th>Quantité</th>
+                        <th>Calories</th>
+                    </thead>
+                    <tr>
+                        <td >Orange</td>
+                        <td>140g</td>
+                        <td>73 Cal</td>
+                    </tr>
+                    <tr>
+                        <td>Fruit de la passion</td>
+                        <td>100g</td>
+                        <td>84 Cal</td>
+                    </tr>
+                </table>
+            </div>
+            <button>Valider</button>
+        </div>
+    </section>
+</body>
+</html>

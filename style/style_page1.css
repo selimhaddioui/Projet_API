@@ -1,0 +1,31 @@
+header > h2 
+{
+    text-transform: capitalize;
+}
+
+section > div
+{
+    background-color: white;
+    height: 400px;
+}
+
+section > div > form
+{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+section > div > form > select
+{
+    border: none;
+    background-color: #DDDBDB;
+    border-radius: 100px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    
+    /* Suppression des fleches de la liste déroulante */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}

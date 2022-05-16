@@ -1,0 +1,26 @@
+header > h2 
+{
+    text-transform: capitalize;
+}
+
+section > div > p
+{
+    font-style: normal;
+    color: black;
+    font-size: normal;
+}
+
+section > div > div 
+{
+    display: flex;
+}
+
+#resultatCalcul
+{
+    flex: 1;
+}
+
+td
+{
+    text-align: center;
+}
