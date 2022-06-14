@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../style/style.css">
+    <script src="../javascript/accueil.js" async></script>
     <title>Calculorie</title>
 </head>
 <body>
@@ -18,9 +19,9 @@
             </div>
             <p>Découvrez les aliments qui vont contribuer à atteindre votre objectif.</p>
             <div id="entreeCalorie">
-                <input type="text" inputmode="numeric" name="objectifCalorique"/><label for="objectifCalorique">calories.</label>
+                <input id="inputObjectifCalorie" required="required" pattern="[1-9]*" name="objectifCalorique" /><label for="objectifCalorique">calories.</label>
             </div>
-            <button>Calculer</button>
+            <button id="btnObjectifCalorie">Calculer</button>
         </div>
 
         <div>

@@ -114,3 +114,12 @@ a
 {
     text-decoration: none;
 }
+
+
+input:valid {
+    border: green solid 5px;
+}
+
+input:invalid {
+    border: red solid 5px;
+}

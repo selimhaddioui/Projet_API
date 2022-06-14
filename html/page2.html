@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/style_page2.css">
     <title>Page 2</title>
-    <script src="javascript/dynamic_stuff.js" async></script>
+    <script src="../javascript/page2.js" async></script>
 </head>
 <body>
     <a href="accueil.html">
@@ -22,27 +22,10 @@
                     Voici notre sélection d'aliments selon vos critères :
                 </h3>
             </div>
-            <div class="rectangleBlanc">
-                <table id="resultatCalcul">
-
-                    <thead>
-                        <th>Aliments</th>
-                        <th>Quantité</th>
-                        <th>Calories</th>
-                    </thead>
-                    <tr>
-                        <td >Orange</td>
-                        <td>140g</td>
-                        <td>73 Cal</td>
-                    </tr>
-                    <tr>
-                        <td>Fruit de la passion</td>
-                        <td>100g</td>
-                        <td>84 Cal</td>
-                    </tr>
-                </table>
+            <div class="rectangleBlanc" id="listeRepas">
+                <table id="resultatCalcul"></table>
             </div>
-            <button>Retour</button>
+            <button id="retour">Retour</button>
         </div>
     </section>
 </body>
