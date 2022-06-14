@@ -5,7 +5,7 @@ if(!Number.isInteger(parseInt(nbCal)) || nbCal.length != parseInt(nbCal).toStrin
     window.location.href = 'accueil.html';
 }
 
-console.log("5-minute Ricotta Garlic Herb Dip".length)
+document.getElementById("objectifCalorique").textContent = nbCal
 
 let real_list = document.getElementById("resultatCalcul");
 let list = document.createElement("table");
