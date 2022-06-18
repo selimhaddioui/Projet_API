@@ -14,7 +14,7 @@
     <section>
       <div>
         <div class="rectangleBlanc">
-          <h3>Quel est votre objectif calorique ?</h3>
+          <h3>Quel est votre objectif calorique du repas ?</h3>
         </div>
         <p>Découvrez les aliments qui vont contribuer à atteindre votre objectif.</p>
         <div id="entreeCalorie">
@@ -25,11 +25,14 @@
       </div>
       <div>
         <div class="rectangleBlanc">
-          <h3>Apport calorique de votre repas</h3>
+          <h3>Entrez votre aliment favoris</h3>
         </div>
-        <p>Découvrez votre consommation caloriques selon vos aliments.</p>
-        <button>Bientot Disponible</button>
+        <p>Découvrez les restaurants ainsi que les noms des plats correspondant à votre recherche.</p>
+		<div id="txt">
+		<input id="inputrechercheRepas" required="required" pattern="[1-9]*" name="rechercherRepas" />
+        <button id="btnRechercher">Rechercher</button>
       </div>
+	  </div>
     </section>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v14.0" nonce="u5fsSiUc"></script>
