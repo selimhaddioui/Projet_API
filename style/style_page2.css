@@ -17,6 +17,7 @@ section > div > div
 
 #resultatCalcul
 {
+    margin-left: 150px;
     flex: 1;
 }
 
@@ -25,6 +26,7 @@ td
     text-align: center;
     font-size: 10px;
     text-transform: lowercase;
+    padding-left: 100px;
 }
 #listeRepas
 {
@@ -69,3 +71,4 @@ td
     visibility: visible;
     opacity: 1;
 }
+

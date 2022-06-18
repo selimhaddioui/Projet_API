@@ -9,6 +9,35 @@ section > div
     height: 400px;
 }
 
+
+section > div > div 
+{
+    display: flex;
+}
+
+#resultatRepas
+{
+    margin-left: 250px;
+    flex: 1;
+}
+
+td
+{
+    text-align: center;
+    text-transform: capitalize;
+    padding-left: 100px;
+}
+th
+{
+    text-align: center;
+    padding-left: 100px;
+}
+#listeRepas
+{
+    padding: 15px;
+}
+
+
 section > div > form
 {
     display: flex;
